@@ -18,7 +18,7 @@
 
 ## 📋 About This Portfolio
 
-This repository documents my journey studying foundational and cutting-edge research across ML/AI. Each paper entry includes a structured breakdown covering the core ideas, technical methodology, what makes it novel, and where it applies in production systems. Where applicable, I include code implementations that replicate or extend key results.
+This repository documents my journey studying foundational and cutting-edge research across ML/AI. Each paper entry includes a structured breakdown covering the core ideas, technical methodology, what makes it novel, and where it applies in production systems. Day 1 of building: 26 March 26.
 
 **What you'll find for each paper:**
 
