@@ -1,109 +1,90 @@
 <div align="center">
 
-# 🧠 ML Research Portfolio
+# 🧠 ML Research Portfolio — Gen AI / CTO Ontology
 
-**A curated collection of research papers, implementations, and applied insights across Machine Learning, Deep Learning, and AI.**
+**A curated collection of research papers, ebooks, essays and runnable demo notebooks across the modern AI stack.**
 
-[![Papers Studied](https://img.shields.io/badge/Papers_Studied-9-blue?style=for-the-badge&logo=arxiv&logoColor=white)](#)
-[![Implementations](https://img.shields.io/badge/Implementations-0-green?style=for-the-badge&logo=python&logoColor=white)](#)
-[![Topics](https://img.shields.io/badge/Topics-5-orange?style=for-the-badge&logo=bookstack&logoColor=white)](#-research-topics)
+Organised the way a Gen-AI engineer / CTO would actually use them: substrate → pretraining → alignment → adaptation → retrieval → agents → applied → engineering → strategy.
+
+[![Categories](https://img.shields.io/badge/Categories-10-blue?style=for-the-badge)](#-categories)
+[![Demo Notebooks](https://img.shields.io/badge/Demo_Notebooks-10-green?style=for-the-badge&logo=jupyter)](#-demo-notebooks)
+[![Items](https://img.shields.io/badge/Items_Studied-32+-orange?style=for-the-badge)](#)
 
 ---
 
-*Building intuition from first principles. Each paper is studied for its methodology, innovation, and real-world applicability — not just its results.*
+*Each category has a written `README.md` framing the category for a recruiter or founder reader, plus a single runnable `.ipynb` that demonstrates the canonical technique on a small public-data problem.*
 
 </div>
 
 ---
 
 ## 📋 About This Portfolio
+version 0.0, 2026-03-26
+version 1.0, last updated 2026-05-25
 
-This repository documents my journey studying foundational and cutting-edge research across ML/AI. Each paper entry includes a structured breakdown covering the core ideas, technical methodology, what makes it novel, and where it applies in production systems. Day 1 of building: 26 March 26.
 
-**What you'll find for each paper:**
+I'm an applied ML scientist and application backend developer with a deep enthusiasm for generative AI. I build production-grade enterprise systems while staying close to the bigger questions — how AI reshapes engineering leadership, product strategy, and the philosophy of what we're actually building.
+
+This repository is the curated, public-facing version of my reading and implementation work. It's been reorganised (May 2026) around a Gen-AI / CTO-level ontology: instead of grouping by classical academic topic, papers and resources are grouped by *the role they play in shipping an AI system*.
+
+**What you'll find for each category:**
 
 | Section | Description |
 |---|---|
-| 📝 **Summary** | Core contribution in plain language |
-| 🏷️ **Tags** | Quick-scan taxonomy (task, architecture, domain) |
-| 🔬 **Methodology** | How it works — architectures, losses, training details |
-| 💡 **Innovation** | What's genuinely new vs. incremental improvement |
-| 🌍 **Real-World Applicability** | Where and how this transfers to production |
-| 💻 **Code** | Replications, experiments, and notebooks *(when available)* |
+| 🧭 **Why this category exists** | The CTO-level framing — what role this slice of the stack plays |
+| 📚 **Papers / Resources** | Indexed table with takeaways |
+| 🧪 **Demo notebook** | A single runnable `.ipynb` showing the canonical technique on small public data |
+| 💭 **My take** | Written opinion — what I'd tell a founder, a hire, or a board about this category |
 
 ---
 
-## 🗂️ Research Topics
+## 🗂️ Categories
 
-<table>
-<tr>
-<td align="center" width="20%">
-<br>
-<a href="papers/deep-learning/README.md">
-<img src="https://img.shields.io/badge/-Deep%20Learning-FF6F61?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning"/>
-</a>
-<br><br>
-<sub>CNNs · Architectures · Optimization · Regularization · Foundation Models</sub>
-<br><br>
-</td>
-<td align="center" width="20%">
-<br>
-<a href="papers/nlp-llms/README.md">
-<img src="https://img.shields.io/badge/-NLP%20%2F%20LLMs-4A90D9?style=for-the-badge&logo=openai&logoColor=white" alt="NLP / LLMs"/>
-</a>
-<br><br>
-<sub>Language Models · RAG · Fine-tuning · Prompting · Alignment</sub>
-<br><br>
-</td>
-<td align="center" width="20%">
-<br>
-<a href="papers/transformers/README.md">
-<img src="https://img.shields.io/badge/-Transformers-9B59B6?style=for-the-badge&logo=huggingface&logoColor=white" alt="Transformers"/>
-</a>
-<br><br>
-<sub>Attention · Efficient Transformers · Vision Transformers · Multimodal</sub>
-<br><br>
-</td>
-<td align="center" width="20%">
-<br>
-<a href="papers/time-series/README.md">
-<img src="https://img.shields.io/badge/-Time%20Series-2ECC71?style=for-the-badge&logo=graphql&logoColor=white" alt="Time Series"/>
-</a>
-<br><br>
-<sub>Forecasting · Anomaly Detection · Temporal Models · Sequence Modeling</sub>
-<br><br>
-</td>
-<td align="center" width="20%">
-<br>
-<a href="papers/machine-learning/README.md">
-<img src="https://img.shields.io/badge/-Machine%20Learning-F39C12?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Machine Learning"/>
-</a>
-<br><br>
-<sub>Classical ML · Ensemble Methods · Feature Engineering · AutoML</sub>
-<br><br>
-</td>
-</tr>
-</table>
+| | Category | What it covers |
+|---|---|---|
+| 🧱 | [Foundations](papers/foundations/README.md) | Attention, ResNet, BatchNorm, ViT, Mamba, SAM2 — the architectures every modern AI system inherits |
+| 📚 | [LLM Pretraining](papers/llm-pretraining/README.md) | BERT, GPT-3, in-context learning, long-form speech — the pretrained models that defined the field |
+| 🎯 | [Alignment & RLHF](papers/alignment-rlhf/README.md) | PPO, RLHF-Summarize, InstructGPT, Personal Value Alignment, Positive Alignment |
+| 🔧 | [Adaptation & Fine-Tuning](papers/adaptation-finetuning/README.md) | TinyLoRA, Text-to-LoRA — parameter-efficient adaptation |
+| 🔍 | [Retrieval & RAG](papers/retrieval-rag/README.md) | M3-Embedding, MMR, Medium Daily Digest engineering writeup |
+| 🤖 | [Agents, Tools & Memory](papers/agents-tools-memory/README.md) | ToolGen, Agent Memory, Cohere Enterprise Agents, Anthropic Skills |
+| 📈 | [Time-Series Forecasting](papers/time-series/README.md) | Temporal Fusion Transformers, Informer |
+| 🏭 | [Applied ML, Industrial](papers/applied-ml-industrial/README.md) | XGBoost, ECNN Pump Monitoring — the 80% of enterprise ML that isn't generative |
+| ⚙️ | [Gen AI Engineering](papers/gen-ai-engineering/README.md) | Chip Huyen's AI Engineering, AI Magazine, OpenClaw tutorial — the craft of shipping |
+| 🧭 | [AI Strategy & Leadership](papers/ai-strategy-leadership/README.md) | a16z, HBR, Harvey AI critiques — the business context |
 
 ---
 
-## 🚀 Quick Navigation
+## 🧪 Demo Notebooks
 
-> Click a topic above to browse papers, or use the index below to jump to a specific entry.
+Every category folder contains a single end-to-end notebook designed to run on CPU in under a minute (no API keys, mostly synthetic or public-domain data). They are the place to start if you want a "show me what you'd build" sample.
 
-### Recently Added
+| Category | Notebook | What it shows |
+|---|---|---|
+| Foundations | [`foundations.ipynb`](papers/foundations/foundations.ipynb) | Attention from scratch + a residual-connection ablation |
+| LLM Pretraining | [`llm-pretraining.ipynb`](papers/llm-pretraining/llm-pretraining.ipynb) | Char-level tiny GPT on synthetic Shakespeare |
+| Alignment & RLHF | [`alignment-rlhf.ipynb`](papers/alignment-rlhf/alignment-rlhf.ipynb) | Toy preference dataset → reward model → policy gradient → reward-hacking visible |
+| Adaptation | [`adaptation-finetuning.ipynb`](papers/adaptation-finetuning/adaptation-finetuning.ipynb) | LoRA vs full fine-tune on a matrix-factorisation toy + multi-task adapter library |
+| Retrieval & RAG | [`retrieval-rag.ipynb`](papers/retrieval-rag/retrieval-rag.ipynb) | FAISS-style retrieval + MMR re-ranking over this portfolio's READMEs |
+| Agents | [`agents-tools-memory.ipynb`](papers/agents-tools-memory/agents-tools-memory.ipynb) | Bare-metal agent loop, no frameworks, with a memory ablation benchmark |
+| Time-Series | [`time-series.ipynb`](papers/time-series/time-series.ipynb) | Seasonal-naive vs gradient-boosted vs tiny attention model |
+| Applied ML | [`applied-ml-industrial.ipynb`](papers/applied-ml-industrial/applied-ml-industrial.ipynb) | XGBoost-class model with calibration, lift, permutation importance, drift sketch |
+| Gen AI Engineering | [`gen-ai-engineering.ipynb`](papers/gen-ai-engineering/gen-ai-engineering.ipynb) | LLM service skeleton — router, prompt versioning, eval, structured logs, cost model |
+| AI Strategy | [`ai-strategy-leadership.ipynb`](papers/ai-strategy-leadership/ai-strategy-leadership.ipynb) | Unit economics of an AI feature, sensitivity heatmap, Monte Carlo on assumptions |
 
-| Paper | Topic | Tags | Code |
-|---|---|---|---|
-| [Deep Residual Learning (ResNet)](papers/deep-learning/resnet/README.md) | Deep Learning | `CNN` `ResNet` `Architecture` | 🔲 |
-| [Batch Normalization](papers/deep-learning/batch-normalization/README.md) | Deep Learning | `Optimization` `BatchNorm` `Training` | 🔲 |
-| [BERT](papers/nlp-llms/bert/README.md) | NLP / LLMs | `Language Models` `Fine-tuning` `Embeddings` | 🔲 |
-| [GPT-3: Few-Shot Learners](papers/nlp-llms/gpt3-few-shot-learners/README.md) | NLP / LLMs | `Language Models` `In-Context Learning` `Prompting` | 🔲 |
-| [Attention Is All You Need](papers/transformers/attention-is-all-you-need/README.md) | Transformers | `Self-Attention` `Architecture` `NLP` | 🔲 |
-| [Vision Transformer (ViT)](papers/transformers/vision-transformer/README.md) | Transformers | `Vision Transformers` `Multimodal` | 🔲 |
-| [Temporal Fusion Transformers](papers/time-series/temporal-fusion-transformers/README.md) | Time Series | `Forecasting` `Temporal Fusion` `Multivariate` | 🔲 |
-| [Informer](papers/time-series/informer/README.md) | Time Series | `Forecasting` `Autoregressive` | 🔲 |
-| [XGBoost](papers/machine-learning/xgboost/README.md) | Machine Learning | `Ensemble Methods` `Classification` `Regression` | 🔲 |
+---
+
+## 🚀 Quick Start
+
+```bash
+# Browse the portfolio site
+open index.html
+
+# Or open the demo notebooks directly
+jupyter notebook papers/<category>/<category>.ipynb
+```
+
+Notebooks use only widely-available libraries: `numpy`, `torch`, `scikit-learn`, `pandas`, `matplotlib`. No keys, no downloads, no GPU.
 
 ---
 
@@ -111,10 +92,9 @@ This repository documents my journey studying foundational and cutting-edge rese
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
 ---
@@ -122,36 +102,38 @@ This repository documents my journey studying foundational and cutting-edge rese
 ## 📂 Repository Structure
 
 ```
-├── README.md                     ← You are here
+.
+├── README.md                       ← You are here
+├── index.html                      ← Portfolio site (open in browser)
 ├── papers/
-│   ├── deep-learning/
-│   │   ├── README.md             ← Topic overview + paper index
-│   │   └── <paper-slug>/
-│   │       ├── README.md         ← Paper breakdown
-│   │       ├── code/             ← Implementations & notebooks
-│   │       └── assets/           ← Figures, diagrams
-│   ├── nlp-llms/
-│   ├── transformers/
+│   ├── foundations/                ← Category folder
+│   │   ├── README.md               ← Category framing + my take
+│   │   ├── foundations.ipynb       ← Runnable demo notebook
+│   │   ├── attention-is-all-you-need/
+│   │   ├── resnet/
+│   │   ├── batch-normalization/
+│   │   ├── vision-transformer/
+│   │   ├── mamba/
+│   │   └── sam2/
+│   ├── llm-pretraining/
+│   ├── alignment-rlhf/
+│   ├── adaptation-finetuning/
+│   ├── retrieval-rag/
+│   ├── agents-tools-memory/
 │   ├── time-series/
-│   └── machine-learning/
-├── assets/
-│   └── images/                   ← Shared images & banners
-└── CLAUDE.md                     ← Project instructions
+│   ├── applied-ml-industrial/
+│   ├── gen-ai-engineering/
+│   ├── ai-strategy-leadership/
+│   └── _misc/                      ← Non-portfolio personal docs
+└── CLAUDE.md
 ```
 
----
-
-## 📖 How to Use This Repo
-
-1. **Browse by topic** — Click a topic badge above to see all papers in that area
-2. **Read a paper breakdown** — Each paper has its own folder with a structured README
-3. **Run the code** — Where available, open the notebooks or scripts in `code/`
-4. **Add your own** — Use the [paper template](papers/PAPER_TEMPLATE.md) to add new entries
+The previous topic folders (`deep-learning/`, `nlp-llms/`, `transformers/`, `machine-learning/`) are retained as legacy redirects pointing to their new homes in the ontology above.
 
 ---
 
 <div align="center">
 
-*Built with curiosity and rigor.*
+*Built with curiosity and rigor. Updated May 2026.*
 
 </div>
