@@ -19,6 +19,33 @@ any browser or publish it straight to GitHub Pages.
   **abstract-faithful** brief: Context · Technical Approach · Business Problem & Value ·
   Challenges · Gaps (what's behind the paywall) · verbatim Abstract · engineering tags
   (methods, play/field, region, operators) · link to the source paper.
+- **Paste-to-enrich (dynamic records)** — because the source papers are paywalled, you can
+  paste the **full text** of any article and update its record live (see below).
+
+## Updating records by pasting paywalled full text
+
+Click **Enrich with full text** on any open paper, or **➕ Add paywalled article** for one
+not in the list. In the editor:
+
+1. Paste the article's full text and hit **⚡ Auto-derive** — the dashboard re-runs the same
+   keyword classifier (disciplines, methods, plays/regions/operators, relevance) and pre-fills
+   Context / Technical / Business / Challenges from the pasted text.
+2. Edit any field by hand, then **Save**.
+
+Saved edits live in your browser's **localStorage**, so they survive reloads. The original
+verbatim brief is preserved; an enriched record shows a green **✓ enriched** badge, and the
+"Source" section displays your full text instead of the short abstract.
+
+**Persist / share your edits**
+- **⬇ Export data.json** — downloads the full dataset with your enrichments merged. Replace
+  the `data.json` in this folder and re-run `build_dashboard.py` to bake edits permanently
+  into `index.html` (e.g. for the published portfolio).
+- **⬇ Backup edits** / **⬆ Restore edits** — save or reload just your overrides as a small
+  JSON file (handy across machines/browsers).
+- **Revert** removes an enrichment and restores the original baseline record;
+  **Clear edits** wipes all local changes.
+
+> Edits are stored per-browser. Use Export/Backup if you want them on another device or in git.
 
 ## Dataset
 

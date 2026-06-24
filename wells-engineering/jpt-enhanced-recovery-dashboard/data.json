@@ -3888,5 +3888,529 @@
     "Carbon storage / CCUS"
    ]
   }
- ]
+ ],
+ "rules": {
+  "disciplines": [
+   [
+    "Field Development",
+    [
+     "field development",
+     "development plan",
+     "development project",
+     "field-project",
+     "field/project",
+     "epci",
+     "trunkline",
+     "project management",
+     "project-management",
+     "appraisal",
+     "marginal field",
+     "presalt",
+     "well-network-design",
+     "well network",
+     "tieback",
+     "infrastructure",
+     "fdp",
+     "redevelop",
+     "rehab",
+     "acquire",
+     "acquisition",
+     "joint venture",
+     "exploration and development"
+    ]
+   ],
+   [
+    "Drilling & Well Construction",
+    [
+     "drilling",
+     "drill",
+     "casing",
+     "cementing",
+     "zonal isolation",
+     "directional",
+     "horizontal well",
+     "extended lateral",
+     "laterals",
+     "wellbore",
+     "sidetrack",
+     "liner",
+     "completion well metallurgy",
+     "metallurgy",
+     "class vi well",
+     "well construction",
+     "drilling-location",
+     "openhole"
+    ]
+   ],
+   [
+    "Completions & Stimulation",
+    [
+     "completion",
+     "fracturing",
+     "frac",
+     "hydraulic fractur",
+     "stimulat",
+     "acidizing",
+     "acid",
+     "proppant",
+     "perforat",
+     "sand screen",
+     "sand-screen",
+     "sand control",
+     "diverter",
+     "fishbone",
+     "limited-entry",
+     "matrix acid",
+     "skin",
+     "intelligent completion",
+     "closed-loop",
+     "fracture conductivity",
+     "stimulation",
+     "well integrity"
+    ]
+   ],
+   [
+    "Production & Well Performance",
+    [
+     "artificial lift",
+     "gas-lift",
+     "gas lift",
+     "esp",
+     "electrical submersible",
+     "inflow control",
+     "icd",
+     "aicv",
+     "aocd",
+     "flow-control device",
+     "flow control",
+     "liquid loading",
+     "gas/oil ratio",
+     "gor",
+     "rate transient",
+     "well performance",
+     "well control",
+     "intervention",
+     "surveillance",
+     "huff",
+     "cyclic steam",
+     "steam injection",
+     "thin-oil-rim",
+     "oil-rim",
+     "oil rim",
+     "decline",
+     "drawdown",
+     "gas separation",
+     "self-flow",
+     "subsurface safety"
+    ]
+   ],
+   [
+    "Facilities & Flow Assurance",
+    [
+     "facilit",
+     "topside",
+     "separator",
+     "separation",
+     "produced-water",
+     "produced water",
+     "flow assurance",
+     "hydrate",
+     "pipeline",
+     "subsea",
+     "processing",
+     "surface facilit",
+     "gas facilities",
+     "permeate",
+     "sales gas",
+     "injectivity",
+     "water-injection",
+     "water injection",
+     "check-valve"
+    ]
+   ],
+   [
+    "Reservoir & EOR",
+    [
+     "enhanced oil recovery",
+     "enhanced recovery",
+     "eor",
+     "waterflood",
+     "polymer",
+     "surfactant",
+     "wag",
+     "water-alternating-gas",
+     "co2",
+     "minimum miscibility",
+     "miscibility",
+     "sagd",
+     "steam-assisted",
+     "gravity drainage",
+     "wettability",
+     "displacement efficiency",
+     "recovery mechanism",
+     "gas injection",
+     "gas-injection",
+     "injectant",
+     "in-situ combustion",
+     "asp",
+     "alkaline",
+     "biosurfactant",
+     "ferrofluid",
+     "nanofluid",
+     "nanoparticle",
+     "microemulsion",
+     "low-salinity",
+     "reservoir simulation",
+     "reservoir-fluid",
+     "connectivity",
+     "permeability",
+     "relative permeability",
+     "phase behavior",
+     "equation of state",
+     "condensate",
+     "elastic-wave",
+     "wormhole"
+    ]
+   ],
+   [
+    "CCUS & Decarbonization",
+    [
+     "carbon sequestration",
+     "carbon-dioxide storage",
+     "co2 storage",
+     "co2-sequestration",
+     "sequestration",
+     "ccs",
+     "ccus",
+     "carbon capture",
+     "carbon storage",
+     "carbon footprint",
+     "emission",
+     "greenhouse-gas",
+     "decarboniz",
+     "saline aquifer",
+     "carbon-dioxide content"
+    ]
+   ],
+   [
+    "Digital, AI & Modeling",
+    [
+     "machine learning",
+     "machine-learning",
+     "deep-learning",
+     "deep learning",
+     "artificial intelligence",
+     "artificial-intelligence",
+     "data-driven",
+     "data driven",
+     "ai ",
+     "physics-informed",
+     "physics-inspired",
+     "agentic",
+     "predictive model",
+     "proxy-model",
+     "proxy model",
+     "forecasting",
+     "capacitance/resistance",
+     "autonomous",
+     "numerical simulation",
+     "modeling tool",
+     "explainable",
+     "fiber-optic",
+     "real-time"
+    ]
+   ]
+  ],
+  "plays": [
+   "Permian",
+   "Bakken",
+   "Eagle Ford",
+   "Midland",
+   "Delaware Basin",
+   "Wolfcamp",
+   "Niobrara",
+   "Montney",
+   "Haynesville",
+   "Marcellus",
+   "Scoop",
+   "Stack",
+   "North Slope",
+   "Pikka",
+   "Permian shale",
+   "Austin Chalk",
+   "Maverick Basin",
+   "Captain field",
+   "Chichimene",
+   "Mukhaizna",
+   "Sururu",
+   "Kirkuk",
+   "Apani",
+   "Project Cape",
+   "Middle Magdalena",
+   "canyon sand",
+   "Daqing",
+   "Surmont",
+   "Beaufort Sea"
+  ],
+  "regions": [
+   "North Sea",
+   "Permian Basin",
+   "Alaska",
+   "Saudi Arabia",
+   "Middle East",
+   "Colombia",
+   "North Africa",
+   "Nigeria",
+   "Kuwait",
+   "Oman",
+   "Omani",
+   "Malaysia",
+   "China",
+   "Iraq",
+   "Texas",
+   "Arabian Sea",
+   "Utah",
+   "UK",
+   "Canada",
+   "Colombian"
+  ],
+  "operators": [
+   "Chevron",
+   "Occidental",
+   "Aramco",
+   "Saipem",
+   "BP",
+   "Hilcorp",
+   "Eni",
+   "ONGC",
+   "Shale Ingenuity",
+   "GLJ",
+   "Energy Fuse",
+   "Halliburton",
+   "NETL"
+  ],
+  "methods": [
+   [
+    "CO2 injection / miscible gas flooding",
+    [
+     "co2",
+     "carbon dioxide",
+     "carbon-dioxide",
+     "miscib",
+     "minimum miscibility"
+    ]
+   ],
+   [
+    "Water-alternating-gas (WAG)",
+    [
+     "wag",
+     "water-alternating-gas",
+     "water alternating gas"
+    ]
+   ],
+   [
+    "Polymer flooding",
+    [
+     "polymer",
+     "polyacrylamide",
+     "atbs",
+     "viscosit"
+    ]
+   ],
+   [
+    "Surfactant / chemical EOR",
+    [
+     "surfactant",
+     "asp",
+     "alkaline",
+     "wettability",
+     "microemulsion",
+     "biosurfactant",
+     "ketone"
+    ]
+   ],
+   [
+    "Hydraulic fracturing",
+    [
+     "hydraulic fractur",
+     "fracturing",
+     "frac ",
+     "closed-loop",
+     "far-field diverter",
+     "proppant"
+    ]
+   ],
+   [
+    "Acidizing / matrix stimulation",
+    [
+     "acidizing",
+     "acid ",
+     "matrix acid",
+     "fishbone",
+     "diverter-acid",
+     "wormhole"
+    ]
+   ],
+   [
+    "SAGD / thermal recovery",
+    [
+     "sagd",
+     "steam-assisted",
+     "gravity drainage",
+     "cyclic steam",
+     "steam injection",
+     "in-situ combustion",
+     "thermal"
+    ]
+   ],
+   [
+    "Inflow / flow control (ICD/AICV/AICD)",
+    [
+     "inflow control",
+     "icd",
+     "aicv",
+     "aocd",
+     "flow-control device",
+     "flow control device"
+    ]
+   ],
+   [
+    "Artificial lift (ESP / gas lift)",
+    [
+     "esp",
+     "electrical submersible",
+     "gas-lift",
+     "gas lift",
+     "artificial lift"
+    ]
+   ],
+   [
+    "Coiled tubing",
+    [
+     "coiled tubing",
+     "coiled-tubing"
+    ]
+   ],
+   [
+    "Sand control",
+    [
+     "sand screen",
+     "sand-screen",
+     "sand control",
+     "fines"
+    ]
+   ],
+   [
+    "Nanotechnology / nanofluids",
+    [
+     "nanoparticle",
+     "nanofluid",
+     "janus"
+    ]
+   ],
+   [
+    "Machine learning / AI",
+    [
+     "machine learning",
+     "machine-learning",
+     "deep-learning",
+     "deep learning",
+     "artificial intelligence",
+     "artificial-intelligence",
+     "data-driven",
+     "physics-informed",
+     "physics-inspired",
+     "agentic"
+    ]
+   ],
+   [
+    "Reservoir simulation / modeling",
+    [
+     "simulation",
+     "modeling",
+     "model ",
+     "equation of state",
+     "dual-porosity",
+     "compositional",
+     "proxy"
+    ]
+   ],
+   [
+    "Geothermal",
+    [
+     "geothermal"
+    ]
+   ],
+   [
+    "Carbon storage / CCUS",
+    [
+     "sequestration",
+     "ccs",
+     "ccus",
+     "carbon capture",
+     "co2 storage",
+     "carbon storage"
+    ]
+   ],
+   [
+    "Liquid loading / well deliquification",
+    [
+     "liquid loading",
+     "liquid-loading",
+     "critical gas rate"
+    ]
+   ]
+  ],
+  "value_kws": {
+   "recovery": "increased / improved hydrocarbon recovery",
+   "oil production": "higher oil production",
+   "production": "sustained or increased production",
+   "injectivity": "preserved injectivity",
+   "injectant cost": "reduced injectant cost",
+   "cost": "cost / economic efficiency",
+   "emission": "lower emissions",
+   "carbon footprint": "reduced carbon footprint",
+   "storage": "secure CO2 storage",
+   "sequestration": "CO2 sequestration value",
+   "estimated ultimate recovery": "higher estimated ultimate recovery (EUR)",
+   "economics": "improved project economics",
+   "project value": "increased project value",
+   "sales gas": "monetized sales gas",
+   "barrels": "unlocking additional barrels"
+  },
+  "challenge_kws": [
+   "challeng",
+   "difficult",
+   "issue",
+   "problem",
+   "loss",
+   "degrad",
+   "risk",
+   "suboptimal",
+   "decline",
+   "breakthrough",
+   "barrier",
+   "heterogen",
+   "hard-to-recover",
+   "little-understood",
+   "do not always align",
+   "costly",
+   "corros",
+   "fines",
+   "sanding",
+   "self-flow",
+   "high-temperature",
+   "high-salinity",
+   "tectonic",
+   "complex",
+   "uncertaint"
+  ],
+  "wells_core": [
+   "Completions & Stimulation",
+   "Drilling & Well Construction",
+   "Facilities & Flow Assurance",
+   "Field Development",
+   "Production & Well Performance"
+  ]
+ }
 }

@@ -519,7 +519,18 @@ meta = {
     "relevance": rel_counter.most_common(),
 }
 
-out = {"meta": meta, "records": records}
+rules = {
+    "disciplines": DISCIPLINE_RULES,
+    "plays": PLAYS,
+    "regions": REGIONS,
+    "operators": OPERATORS,
+    "methods": METHODS,
+    "value_kws": VALUE_KWS,
+    "challenge_kws": CHALLENGE_KWS,
+    "wells_core": sorted(WELLS_CORE),
+}
+
+out = {"meta": meta, "records": records, "rules": rules}
 with open("data.json","w") as f:
     json.dump(out, f, indent=1, ensure_ascii=False)
 
