@@ -12,7 +12,7 @@ Organised the way a Gen-AI engineer / CTO would actually use them: substrate →
 
 ---
 
-*Each category has a written `README.md` framing the category for a recruiter or founder reader, plus a single runnable `.ipynb` that demonstrates the canonical technique on a small public-data problem.*
+*Each category has a written `README.md`, plus a single runnable `.ipynb` that demonstrates the canonical technique on a small public-data problem.*
 
 </div>
 
