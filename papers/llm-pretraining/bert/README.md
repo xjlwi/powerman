@@ -100,7 +100,7 @@ BERT and its variants power search engines (Google integrated BERT into search r
 
 | File | Description |
 |---|---|
-| `code/` | *Implementation coming soon* |
+| `code/` | *NA* |
 
 ---
 

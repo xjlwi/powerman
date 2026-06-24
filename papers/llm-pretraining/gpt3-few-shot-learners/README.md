@@ -96,9 +96,6 @@ GPT-3 is the direct ancestor of the modern LLM API economy. Its architecture and
 
 > **Status:** 🔲 Not started
 
-| File | Description |
-|---|---|
-| `code/` | *Implementation coming soon* |
 
 ---
 

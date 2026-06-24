@@ -32,9 +32,8 @@
 
 ## 🗺️ Roadmap
 
-Papers I plan to study and add to this section:
+Placeholder.
 
-- [ ] *Add planned papers here*
 
 ---
 
